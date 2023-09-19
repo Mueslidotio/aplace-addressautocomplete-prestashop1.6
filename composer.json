@@ -1,0 +1,23 @@
+{
+    "name": "prestashop/aplaceautocomplete",
+    "description": "Address autocomplete module using APlace.io service",
+    "config": {
+        "preferred-install": "dist",
+        "optimize-autoloader": true,
+        "prepend-autoloader": false,
+        "platform": {
+            "php": "5.6.40"
+        }
+    },
+    "require": {
+        "php": ">=5.6",
+        "phpseclib/phpseclib": "^3.0"
+    },
+    "autoload": {
+        "classmap": [
+            "aplaceautocomplete.php"
+        ]
+    },
+    "author": "Muesli",
+    "license": "MIT"
+}
